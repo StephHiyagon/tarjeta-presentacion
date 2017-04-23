@@ -11,24 +11,24 @@
 }
 
 .datos{
-  color:white;
+  color:#dddddd;
   font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
 }
 
-#d1{
+span:nth-child(n+1){
   position:absolute;
   right: 2.5rem;
   top: 4.5rem;
 }
 
-#d2{
+span:nth-child(2n+1){
   position:absolute;
   right: 3.2rem;
   top: 6rem;
 }
 
-#d3{
+span:nth-child(3n+1){
   position:absolute;
   right: 3.2rem;
   top: 8.5rem;
@@ -36,25 +36,26 @@
   color:rgba(186,135,44,1);
 }
 
-#d4{
+span:nth-child(4n+1){
   position:absolute;
   right: 8rem;
   top: 11.6rem;
   font-size: 0.85rem;
 }
 
-#d5{
+span:nth-child(5n+1){
   position:absolute;
   right: 3.9em;
   top: 13rem;
   font-size: 0.85rem;
 }
 
-#d6{
+span:nth-child(6n+1){
   position:absolute;
   right: 3.1rem;
   top: 14.4rem;
   font-size: 0.85rem;
+  color:#dddddd;
 }
 
 .logo{
